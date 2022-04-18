@@ -1,0 +1,7 @@
+- A ve D tuşları ile hareket sağlanmaktadır.
+- Bölüm sonunda kazandığınız madalya sayısı o bölümde ne kadar koruma aracı kaldığıyla alakalıdır.
+- Her bir sonraki bölümde daha fazla düşman araç spawn'lanır ve zorluk bu şekilde artar.
+- 3 farklı düşman araç vardır. Her birinin hızı, patlama efekti ve patlama boyutu farklıdır.
+- Ana menu, seviye ekranı, kazanınca veya kaybedince çıkan ekranlar gibi UI'lar da yapılmıştır.
+- Setting kısmı şimdilik boş bırakılmıştır.
+- Şimdilik herhangi bir ses bulunmamaktadır.

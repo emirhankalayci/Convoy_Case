@@ -1030,9 +1030,13 @@ GameObject:
   - component: {fileID: 3441395540015183821}
   - component: {fileID: 3441395540015183820}
   - component: {fileID: -1067827836541515334}
+  - component: {fileID: 5431662872815432436}
+  - component: {fileID: -5040558573370489703}
+  - component: {fileID: -3259565835023469572}
+  - component: {fileID: 8040651079681120241}
   m_Layer: 0
   m_Name: Car2_LOD
-  m_TagString: Untagged
+  m_TagString: Cars
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,6 +1147,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &5431662872815432436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441395540015183823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a3c41115a2ae4c42bfb4b37a667ab3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &-5040558573370489703
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441395540015183823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.729941, y: 2.4865549, z: 6.1811523}
+  m_Center: {x: 0.03221917, y: 0.7432773, z: -0.28295898}
+--- !u!54 &-3259565835023469572
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441395540015183823}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &8040651079681120241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3441395540015183823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c509903e693137945a970c491cff4f64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 6217773737393807560, guid: 4e46b61dc05545749b9b33bf071ebf9a, type: 3}
 --- !u!1 &3846415729161410753
 GameObject:
   m_ObjectHideFlags: 0
